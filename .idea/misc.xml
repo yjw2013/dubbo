@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/boot-user-service-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-order-service-comsumer/pom.xml" />
       </list>
     </option>
   </component>

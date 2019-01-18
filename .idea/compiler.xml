@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="boot-order-service-comsumer" />
         <module name="boot-user-service-provider" />
         <module name="gmall-interface" />
         <module name="order-service-consumer" />
@@ -15,6 +16,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="boot-order-service-comsumer" options="-parameters" />
       <module name="boot-user-service-provider" options="-parameters" />
     </option>
   </component>
